@@ -1,7 +1,28 @@
 {
   "name": "Planarmechanics",
   "format": "1.0.0",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "Electrification",
+      "versionSpecifier": "2.0.0+build.21"
+    },
+    {
+      "name": "HeatExchanger",
+      "versionSpecifier": "3.0.0+build.28"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.15.0+build.24"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "5.0.0+build.23"
+    },
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    }
+  ],
   "content": [
     {
       "relpath": "PlanarMechanicsTest",
